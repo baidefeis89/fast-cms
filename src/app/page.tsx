@@ -1,9 +1,9 @@
-import getHomeData from './utils/getHomeData';
 import Element from './components/Sections/Element';
 import Section from './components/Sections/Section';
+import Data from './data/home.json';
 
 export default async function Home() {
-  const sections = await getHomeData();
+  const { sections } = Data;
 
   return (
     <>

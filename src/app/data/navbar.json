@@ -1,0 +1,16 @@
+{
+  "title": "Aquaventura Buceo",
+  "image": {
+    "src": "http://localhost:3000/logo.png",
+    "alt": "Aquaventura logo"
+  },
+  "menuNav": [
+    { "title": "Inicio", "link": "/" },
+    { "title": "Quienes somos", "link": "/quienes-somos" },
+    { "title": "Ofertas y eventos", "link": "/ofertas-y-eventos" },
+    { "title": "Formación cursos", "link": "/formacion-cursos" },
+    { "title": "Formación gratuita", "link": "/formacion-gratuita" },
+    { "title": "Multimedia", "link": "/multimedia" },
+    { "title": "Enlaces de interés", "link": "/enlaces-de-interes" }
+  ]
+}
