@@ -1,0 +1,79 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Centro de formación",
+      "background": {
+        "type": 0,
+        "values": {
+          "url": "http://localhost:3000/portada.jpeg"
+        }
+      },
+      "elements": [
+        {
+          "content": {
+            "type": 0,
+            "value": {
+              "title": "Centro de formación",
+              "body": "Si quieres vivir nuevas sensaciones atrévete a descubrir el mundo subacuático de forma segura y respetuosa de la mano de profesionales que te guiarán en tu nueva aventura."
+            }
+          }
+        },
+        {
+          "content": {
+            "type": 0,
+            "value": {
+              "title": "Centro de formación",
+              "body": "Si quieres vivir nuevas sensaciones atrévete a descubrir el mundo subacuático de forma segura y respetuosa de la mano de profesionales que te guiarán en tu nueva aventura."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Centro de formación",
+      "background": {
+        "type": 3
+      },
+      "elements": [
+        {
+          "content": {
+            "type": 0,
+            "value": {
+              "title": "Centro de formación",
+              "body": "Si quieres vivir nuevas sensaciones atrévete a descubrir el mundo subacuático de forma segura y respetuosa de la mano de profesionales que te guiarán en tu nueva aventura."
+            }
+          }
+        },
+        {
+          "content": {
+            "type": 0,
+            "value": {
+              "title": "Centro de formación",
+              "body": "Si quieres vivir nuevas sensaciones atrévete a descubrir el mundo subacuático de forma segura y respetuosa de la mano de profesionales que te guiarán en tu nueva aventura."
+            }
+          }
+        },
+        {
+          "content": {
+            "type": 1,
+            "value": {
+              "url": "http://localhost:3000/portada.jpeg",
+              "alt": "Portada"
+            }
+          }
+        },
+        {
+          "content": {
+            "type": 2,
+            "value": {
+              "url": "https://www.youtube.com/embed/tA-_vAz9y78",
+              "alt": "Video"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
