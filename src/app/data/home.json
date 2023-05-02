@@ -6,7 +6,7 @@
       "background": {
         "type": 0,
         "values": {
-          "url": "http://localhost:3000/portada.jpeg"
+          "url": "/portada.jpeg"
         }
       },
       "elements": [
@@ -59,7 +59,7 @@
           "content": {
             "type": 1,
             "value": {
-              "url": "http://localhost:3000/portada.jpeg",
+              "url": "/portada.jpeg",
               "alt": "Portada"
             }
           }

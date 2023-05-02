@@ -1,7 +1,7 @@
 {
   "title": "Aquaventura Buceo",
   "image": {
-    "src": "http://localhost:3000/logo.png",
+    "src": "/logo.png",
     "alt": "Aquaventura logo"
   },
   "menuNav": [
