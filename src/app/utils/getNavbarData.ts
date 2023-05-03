@@ -1,9 +1,7 @@
 import { NavbarProps } from '../components/Navbar';
+import data from '../data/navbar.json';
 
 const getNavbarData = async () => {
-  const res = await fetch(process.env.BASE_URL + '/navbar.json');
-  const data = await res.json();
-
   return data as NavbarProps;
 };
 

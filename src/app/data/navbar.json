@@ -6,11 +6,6 @@
   },
   "menuNav": [
     { "title": "Inicio", "link": "/" },
-    { "title": "Quienes somos", "link": "/quienes-somos" },
-    { "title": "Ofertas y eventos", "link": "/ofertas-y-eventos" },
-    { "title": "Formación cursos", "link": "/formacion-cursos" },
-    { "title": "Formación gratuita", "link": "/formacion-gratuita" },
-    { "title": "Multimedia", "link": "/multimedia" },
-    { "title": "Enlaces de interés", "link": "/enlaces-de-interes" }
+    { "title": "Quienes somos", "link": "/quienes-somos" }
   ]
 }

@@ -1,7 +1,6 @@
 import { Roboto_Flex } from 'next/font/google';
 import { Navbar } from './components/Navbar';
-
-import Data from './data/navbar.json';
+import getNavbarData from './utils/getNavbarData';
 
 import './globals.css';
 
@@ -17,7 +16,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const { image, title, menuNav } = Data;
+  const { image, title, menuNav } = await getNavbarData();
 
   return (
     <html lang="es">
