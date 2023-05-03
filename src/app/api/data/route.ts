@@ -1,9 +1,8 @@
 import data from './pages.json';
-import { NextApiRequest } from 'next';
+import { NextRequest } from 'next/server';
 
-export async function GET(request: NextApiRequest) {
-  const url = new URL(request.url || '');
-  const slug = url.searchParams.get('slug');
+export async function GET(request: NextRequest) {
+  const slug = request.nextUrl.searchParams.get('slug');
 
   const pageData = data.pages.find((page) => page.slug === slug);
 
