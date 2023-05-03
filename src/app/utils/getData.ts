@@ -1,10 +1,10 @@
 import { PageData } from '../types';
+import data from '../data/pages.json';
 
 const getData = async (slug: string) => {
-  const res = await fetch(process.env.BASE_URL + `/api/data?slug=${slug}`);
-  const data = await res.json();
+  const pageData = data.pages.find((page) => page.slug === slug);
 
-  return data as PageData;
+  return (pageData || { sections: [] }) as PageData;
 };
 
 export default getData;
