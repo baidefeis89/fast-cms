@@ -4,7 +4,7 @@ import getData from '../utils/getData';
 
 const Page = async (context: any) => {
   const { slug } = context.params;
-  const { sections } = await getData(slug);
+  const { sections } = await getData(slug[0] || slug);
 
   return (
     <>
